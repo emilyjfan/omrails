@@ -4,7 +4,7 @@ gem 'rails', '3.2.8'
 gem 'jquery-rails'
 
 group :production do
-	gem 'sqlite3'
+	gem 'pg'
 end
 
 group :development, :test do
@@ -16,6 +16,3 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
-
-
-
